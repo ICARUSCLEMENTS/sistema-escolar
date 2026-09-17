@@ -1,0 +1,12 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Maria Silva",
+      "email": "maria@email.com",
+      "cpf": "123.456.789-00",
+      "data_nascimento": "2007-05-14",
+      "endereco": "Rua das Flores, 123 - Pau dos Ferros/RN"
+    }
+  ]
+}

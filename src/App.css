@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #222222;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px 48px;
+}
+
+/* Cabeçalho */
+
+.cabecalho-ifrn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #2e7d32;
+  color: #ffffff;
+  padding: 20px 24px;
+  margin: 0 -16px 24px;
+  border-bottom: 4px solid #68b92e;
+}
+
+.logo-ifrn {
+  height: 56px;
+  width: auto;
+}
+
+.cabecalho-ifrn h1 {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+/* Barra de navegação */
+
+.barra-navegacao {
+  display: flex;
+  gap: 8px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+  padding: 12px 0;
+  margin-bottom: 24px;
+}
+
+.barra-navegacao a {
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 4px;
+}
+
+.barra-navegacao a:hover {
+  background-color: #e8f5e9;
+}
+
+/* Página inicial */
+
+.pagina-inicial {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 32px;
+  text-align: center;
+}
+
+.pagina-inicial h2 {
+  color: #2e7d32;
+  margin-top: 0;
+}
+
+.acoes-inicial {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.botao-link {
+  background-color: #68b92e;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.botao-link:hover {
+  background-color: #2e7d32;
+}
+
+/* Títulos das páginas de listagem e cadastro */
+
+.pagina-listagem h2,
+.pagina-cadastro h2 {
+  color: #2e7d32;
+}
+
+/* Mensagem de erro */
+
+.mensagem-erro {
+  border: 2px solid #c62828;
+  color: #c62828;
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin-bottom: 24px;
+}
+
+.mensagem-erro p {
+  margin: 0;
+}
+
+/* Formulário */
+
+.formulario-aluno {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 32px;
+}
+
+.campo-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.campo-texto label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.campo-texto input {
+  padding: 8px 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.campo-texto input:focus {
+  outline: none;
+  border-color: #68b92e;
+  box-shadow: 0 0 0 2px rgba(104, 185, 46, 0.3);
+}
+
+.formulario-aluno button {
+  align-self: flex-start;
+  background-color: #68b92e;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.formulario-aluno button:hover {
+  background-color: #2e7d32;
+}
+
+/* Lista de alunos */
+
+.lista-alunos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.card-aluno {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-left: 4px solid #2e7d32;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.card-aluno h3 {
+  margin: 0 0 8px;
+  color: #2e7d32;
+}
+
+.card-aluno p {
+  margin: 4px 0;
+  font-size: 0.9rem;
+}
+
+.card-aluno button {
+  margin-top: 12px;
+  background-color: #ffffff;
+  color: #c62828;
+  border: 1px solid #c62828;
+  border-radius: 4px;
+  padding: 6px 14px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.card-aluno button:hover {
+  background-color: #c62828;
+  color: #ffffff;
+}
