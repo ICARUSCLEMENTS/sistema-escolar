@@ -1,6 +1,6 @@
-# Sistema Escolar — Cadastro de Alunos
+# Sistema Escolar — Cadastro de Alunos e Professores
 
-Cadastro de alunos com listagem, cadastro e exclusão, feito em React + Vite consumindo uma API simulada com json-server.
+Cadastro de alunos e professores com listagem, cadastro e exclusão, feito em React + Vite consumindo uma API simulada com json-server.
 
 Projeto da disciplina de Programação para Internet — IFRN Campus Pau dos Ferros.
 
@@ -10,11 +10,11 @@ Projeto da disciplina de Programação para Internet — IFRN Campus Pau dos Fer
 
 ## Como baixar o projeto
 
-1. Baixe o projeto pelo GitHub: **https://github.com/JefersonQueiroga/sistema-escolar**
+1. Baixe o projeto pelo GitHub: **https://github.com/ICARUSCLEMENTS/sistema-escolar.git**
    - Pelo navegador: entre no link, clique em **Code > Download ZIP** e extraia a pasta.
    - Ou, se tiver o Git instalado, rode no terminal (PowerShell):
      ```powershell
-     git clone https://github.com/JefersonQueiroga/sistema-escolar.git
+     git clone https://github.com/ICARUSCLEMENTS/sistema-escolar.git
      ```
 2. Abra a pasta do projeto no VS Code (ou no terminal, navegue até ela com `cd`).
 
