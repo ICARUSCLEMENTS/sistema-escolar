@@ -64,7 +64,7 @@ function App() {
     }
   }
 
-  async function aoSalvar(professor) {
+  async function aoSalvarp(professor) {
     try {
       await criarProfessor(professor);
       carregarProfessores();
@@ -73,7 +73,7 @@ function App() {
     }
   }
 
-  async function aoExcluir(id) {
+  async function aoExcluirp(id) {
     try {
       await excluirProfessor(id);
       carregarProfessores();
@@ -98,9 +98,9 @@ function App() {
       <Routes>
         <Route path="/" element={<PaginaInicial />} />
         <Route path="/alunos" element={<PaginaListagem alunos={alunos} aoExcluir={aoExcluir} />} />
-        <Route path="/professores" element={<PaginaListagemProfessores professores={professores} aoExcluir={aoExcluir} />} />
+        <Route path="/professores" element={<PaginaListagemProfessores professores={professores} aoExcluir={aoExcluirp} />} />
         <Route path="/cadastro-aluno" element={<PaginaCadastro aoSalvar={aoSalvar} />} />
-        <Route path="/cadastro-professor" element={<PaginaCadastroProfessor aoSalvar={aoSalvar} />} />
+        <Route path="/cadastro-professor" element={<PaginaCadastroProfessor aoSalvarp={aoSalvarp} />} />
       </Routes>
     </div>
   );

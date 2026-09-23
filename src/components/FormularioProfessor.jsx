@@ -31,7 +31,7 @@ function FormularioProfessor(props) {
       <CampoTexto rotulo="Email" tipo="email" valor={email} aoAlterar={setEmail} />
       <CampoTexto rotulo="CPF" valor={cpf} aoAlterar={setCpf} />
       <CampoTexto rotulo="Disciplina" valor={disciplina} aoAlterar={setDisciplina} />
-      <CampoTexto rotulo="Endereço" valor={data_Admissao} aoAlterar={setData_Admissao} />
+      <CampoTexto rotulo="Data de admissão" tipo="date" valor={data_Admissao} aoAlterar={setData_Admissao} />
       <button type="submit">Cadastrar</button>
     </form>
   );

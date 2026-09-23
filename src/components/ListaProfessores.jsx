@@ -15,7 +15,7 @@ function ListaProfessores(props) {
   }
 
   return (
-    <div className="lista-professores">
+    <div className="lista-alunos">
       {cards}
     </div>
   );

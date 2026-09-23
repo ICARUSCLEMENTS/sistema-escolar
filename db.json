@@ -13,6 +13,7 @@
     {
       "id": 1,
       "nome": "Carlos Eduardo Silva",
+      "email": "icaro.c@escolar.ifrn.edu.br",
       "cpf": "123.456.789-00",
       "disciplina": "Matemática",
       "data_admissao": "2022-03-15"
